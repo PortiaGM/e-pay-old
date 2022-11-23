@@ -1,0 +1,72 @@
+h2 {
+    font-size: 1.125rem;
+}
+.main-container, .container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main-container, .icons {
+    display: flex;
+    flex-flow: row wrap;
+}
+.container1 {
+    flex: 1;
+    flex-flow: column wrap;
+    border-radius: 0.313rem;
+    margin: 0.313rem;
+    padding: 0.313rem;
+    min-width: 18.75rem;
+}
+.userInfo1 {
+    margin: 4.375rem 0 1.875rem;
+}
+.avatar1 {
+    display: block;
+    margin: auto auto;
+    padding: 2.813rem;
+    width: 50%;
+}
+.avatarName1 {
+    color: var(--fontLight);
+    margin: 0.938rem 0;
+    text-transform: uppercase;
+}
+.userBal {
+    background-color: var(--clrForm);
+    display: flex;
+    height: 9.375rem;
+}
+.balStr {
+    margin: 0.125rem;
+}
+.balInt {
+    font-size: 1.25rem;
+}
+.column {
+    border-radius: 0.625rem;
+    float: left;
+    width: 33.33%;
+    padding: 1.875rem;
+    height: auto;
+    transition: all .5s;
+}
+.column:hover {
+    background-color: var(--clrBtnHvr);
+    cursor: pointer;
+    filter:contrast(50%);
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.iconTxt {
+    color: var(--clrInput);
+    margin: 0.313rem 0;
+    font-size: 0.75rem;
+    width: 3.125rem;
+}
+.row {
+    margin-top: 2.5rem;
+}
