@@ -6,7 +6,7 @@ import Register from "./components/Register";
 import ForgotPass from "./components/ForgotPass";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-import Profile from "./components/profile";
+import Profile from "./components/Profile";
 import "./styles/root.css";
 
 function App() {
